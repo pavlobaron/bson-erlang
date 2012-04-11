@@ -2,6 +2,7 @@
 -module (bson_binary).
 
 -export ([put_document/1, get_document/1, put_cstring/1, get_cstring/1]).
+-export([get_field/1]).
 
 -include ("bson_binary.hrl").
 
